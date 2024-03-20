@@ -68,6 +68,9 @@
       "vue-demi": [
         "../node_modules/.pnpm/nuxt@3.11.1_vite@5.1.6/node_modules/nuxt/dist/app/compat/vue-demi"
       ],
+      "#primevue-style": [
+        "./primevue-style.mjs"
+      ],
       "#vue-router": [
         "./vue-router-stub"
       ],
@@ -75,7 +78,7 @@
         "./imports"
       ],
       "#app-manifest": [
-        "./manifest/meta/f986ace2-897a-400e-be1f-463df946053f.json"
+        "./manifest/meta/dev.json"
       ],
       "#build": [
         "."
@@ -110,15 +113,19 @@
     "./nuxt.d.ts",
     "../.config/nuxt.*",
     "../**/*",
-    "../@nuxt/devtools/runtime",
-    "../@nuxt/telemetry/runtime",
+    "../node_modules/.pnpm/@nuxtjs+tailwindcss@6.11.4/node_modules/@nuxtjs/tailwindcss/runtime",
+    "../node_modules/.pnpm/nuxt-primevue@0.3.1_vue@3.4.21/node_modules/nuxt-primevue/runtime",
+    "../node_modules/.pnpm/@nuxt+devtools@1.0.8_nuxt@3.11.1_vite@5.1.6/node_modules/@nuxt/devtools/runtime",
+    "../node_modules/.pnpm/@nuxt+telemetry@2.5.3/node_modules/@nuxt/telemetry/runtime",
     ".."
   ],
   "exclude": [
     "../node_modules",
     "../node_modules/.pnpm/nuxt@3.11.1_vite@5.1.6/node_modules/nuxt/node_modules",
-    "../@nuxt/devtools/runtime/server",
-    "../@nuxt/telemetry/runtime/server",
+    "../node_modules/.pnpm/@nuxtjs+tailwindcss@6.11.4/node_modules/@nuxtjs/tailwindcss/runtime/server",
+    "../node_modules/.pnpm/nuxt-primevue@0.3.1_vue@3.4.21/node_modules/nuxt-primevue/runtime/server",
+    "../node_modules/.pnpm/@nuxt+devtools@1.0.8_nuxt@3.11.1_vite@5.1.6/node_modules/@nuxt/devtools/runtime/server",
+    "../node_modules/.pnpm/@nuxt+telemetry@2.5.3/node_modules/@nuxt/telemetry/runtime/server",
     "../dist",
     "../.output"
   ]

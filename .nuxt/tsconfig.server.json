@@ -74,11 +74,16 @@
       ],
       "public/*": [
         "../public/*"
+      ],
+      "#primevue-style": [
+        "./primevue-style"
       ]
     }
   },
   "include": [
     "./types/nitro-nuxt.d.ts",
+    "../node_modules/.pnpm/@nuxtjs+tailwindcss@6.11.4/node_modules/@nuxtjs/tailwindcss/runtime/server",
+    "../node_modules/.pnpm/nuxt-primevue@0.3.1_vue@3.4.21/node_modules/nuxt-primevue/runtime/server",
     "../node_modules/.pnpm/@nuxt+devtools@1.0.8_nuxt@3.11.1_vite@5.1.6/node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/.pnpm/@nuxt+telemetry@2.5.3/node_modules/@nuxt/telemetry/runtime/server",
     "./types/nitro.d.ts",
